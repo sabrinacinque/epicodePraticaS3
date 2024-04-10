@@ -1,0 +1,83 @@
+body{
+    background-image: url(../img/titty.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed; /* Rende lo sfondo fisso */
+    text-align: center;
+    background-color:#2C1460;
+}
+
+h1{
+    color: #FF9815;
+    font-size: 7rem;
+}
+
+h2{
+    color: #FF9815;
+    font-size: 2rem;
+}
+
+form{
+    background-color: #F4EB3E;
+    padding:2rem;
+}
+
+section{
+    align-items: center;
+    width:30rem;
+    padding:3rem;
+    margin: 0 auto; /* Imposta i margini automatici per centrare la sezione */
+
+}
+
+#inserisci{
+    border-radius: 20%;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+#input{
+    padding: 2rem; /* Aggiunge un padding interno per una migliore estetica */
+    font-size: 1rem;
+}
+
+
+
+ul{
+    list-style: none;
+    padding: 0; /* Rimuovi il padding predefinito */
+    margin: 0; /* Rimuovi anche il margine predefinito */
+}
+
+.newLi{
+    margin-top: 0.2rem;
+    border:1px solid grey;
+    background-color: #F4EB3E;
+    font-size: 2rem;
+    overflow:hidden; /* Nasconde il testo che supera la larghezza massima */
+    
+    text-overflow: ellipsis; 
+
+}
+
+.cancelButton{
+    background-color: #cb510b;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.cancelButton i {
+    font-size: 2rem; 
+    
+}
+
+
+
+.barrato {
+    text-decoration: line-through;
+    color:green;
+}
